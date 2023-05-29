@@ -15,12 +15,3 @@ while True:
         except ValueError:
             print("Invalid character entered. Please enter numbers or floats only.")
             continue
-
-        
-rows = int(input("enter the number: "))
-
-if rows <= 0:
-    print("please enter a positive number")
-else:
-    for i in range(1, rows + 1):
-        print('*' * i)

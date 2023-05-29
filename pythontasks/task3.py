@@ -1,9 +1,3 @@
-phone_number = str(input("enter the phone number: "))
-phone_number = phone_number.strip
-if phone_number[0:3] is "+254":
-    print(phone_number)
-elif phone_number[0:1] is "07" or "71" "01":
-    print(phone_number)
 
 phone_number = input("Enter a phone number: ")
 

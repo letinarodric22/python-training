@@ -1,5 +1,4 @@
 speed = int(input("Enter speed: "))
-
 limit = 70
 demerit_points = 0
 
